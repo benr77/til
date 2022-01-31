@@ -3,7 +3,7 @@ Today I Learned
 
 A collection of small tips and tricks that I pick up each day I work in tech.
 
-### git
+### GIT
 
 
 - [Deleting Branches](git/delete-branch.md)
@@ -11,25 +11,25 @@ A collection of small tips and tricks that I pick up each day I work in tech.
 - [Undo Commit Commands](git/undo-commit.md)
 
 
-### gitlab
+### GITLAB
 
 
 - [GitLab Runner Configuration](gitlab/runner-config.md)
 
 
-### make
+### MAKE
 
 
 - [Passing parameters to Makefile targets](make/makefile-parameters.md)
 
 
-### php
+### PHP
 
 
 - [Generating PDFs with PHP](php/pdf-generation.md)
 
 
-### ssh
+### SSH
 
 
 - [Change directory when logging in via SSH](ssh/cd-on-login.md)

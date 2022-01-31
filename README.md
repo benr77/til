@@ -8,7 +8,7 @@ A collection of small tips and tricks that I pick up each day I work in tech.
 
 - [Deleting Branches](git/delete-branch.md)
 - [Rename Branch](git/rename-branch.md)
-- [Undo Commit Commands](git/undo-commit.md)
+- [Undoing Commits](git/undo-commit.md)
 
 
 ### GITLAB

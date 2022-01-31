@@ -1,4 +1,4 @@
-Undo Commit Commands
+Undoing Commits
 =====
 
 Undo a merge that is not yet pushed

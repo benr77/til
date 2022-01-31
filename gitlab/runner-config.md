@@ -1,4 +1,4 @@
-GitLab Runner Configuration
+Self-Hosted Runner Configuration
 =====
 
 ## GitLab

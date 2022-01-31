@@ -11,18 +11,27 @@ jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Run script file
-      run: |
-         chmod +x "${GITHUB_WORKSPACE}/.github/update-readme.sh"
-         "${GITHUB_WORKSPACE}/.github/update-readme.sh"
-      shell: bash
+    
+      - name: 'Checkout `main` branch'
+        uses: actions/checkout@v2.3.4
+    
+      - name: 'Run update script'
+        run: |
+            chmod +x ${GITHUB_WORKSPACE}/.github/update-readme.sh
+            ${GITHUB_WORKSPACE}/.github/update-readme.sh > ${GITHUB_WORKSPACE}/readme.md
+        shell: bash
+        
+      - name: Push the changes
+        uses: EndBug/add-and-commit@v7.2.1
+        with:
+          message: "Update Readme File"
+          branch: 'main'
 
   build-pages:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'Checkout `master`'
+      - name: 'Checkout `main` branch'
         uses: actions/checkout@v2.3.4
 
       - name: 'Checkout `gh-pages` into a separate directory'

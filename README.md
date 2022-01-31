@@ -14,7 +14,7 @@ A collection of small tips and tricks that I pick up each day I work in tech.
 ### GITLAB
 
 
-- [GitLab Runner Configuration](gitlab/runner-config.md)
+- [Self-Hosted Runner Configuration](gitlab/runner-config.md)
 
 
 ### MAKE

@@ -18,7 +18,7 @@ jobs:
       - name: 'Run update script'
         run: |
             chmod +x ${GITHUB_WORKSPACE}/.github/update-readme.sh
-            ${GITHUB_WORKSPACE}/.github/update-readme.sh > ${GITHUB_WORKSPACE}/readme.md
+            ${GITHUB_WORKSPACE}/.github/update-readme.sh > ${GITHUB_WORKSPACE}/README.md
         shell: bash
         
       - name: Push the changes

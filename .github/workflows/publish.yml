@@ -1,6 +1,6 @@
 # This workflow renders all Markdown documents into a HTML website.
 
-name: 'Build the website'
+name: 'Generate Site'
 
 on:
   push:
@@ -29,7 +29,6 @@ jobs:
 
   build-pages:
     runs-on: ubuntu-latest
-
     steps:
       - name: 'Checkout `main` branch'
         uses: actions/checkout@v2.3.4

@@ -3,6 +3,12 @@ Today I Learned
 
 A collection of small tips and tricks that I pick up each day I work in tech.
 
+### ELASTICSEARCH
+
+
+- [Limiting Memory Usage](elasticsearch/limit-memory-usage.md)
+
+
 ### GIT
 
 

@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>Today I Learned</title>
+  <title>Composer Tools</title>
   <style type="text/css">
       code{white-space: pre-wrap;}
       span.smallcaps{font-variant: small-caps;}
@@ -19,33 +19,15 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
 </head>
 <body>
-<h1 id="today-i-learned">Today I Learned</h1>
-<p>A collection of small tips and tricks that I pick up each day I work in tech.</p>
-<h3 id="elasticsearch">ELASTICSEARCH</h3>
-<ul>
-<li><a href="elasticsearch/limit-memory-usage">Limiting Memory Usage</a></li>
-</ul>
-<h3 id="git">GIT</h3>
-<ul>
-<li><a href="git/delete-branch">Deleting Branches</a></li>
-<li><a href="git/rename-branch">Rename Branch</a></li>
-<li><a href="git/undo-commit">Undoing Commits</a></li>
-</ul>
-<h3 id="gitlab">GITLAB</h3>
-<ul>
-<li><a href="gitlab/runner-config">Self-Hosted Runner Configuration</a></li>
-</ul>
-<h3 id="make">MAKE</h3>
-<ul>
-<li><a href="make/makefile-parameters">Passing parameters to Makefile targets</a></li>
-</ul>
-<h3 id="php">PHP</h3>
-<ul>
-<li><a href="php/pdf-generation">Generating PDFs with PHP</a></li>
-</ul>
-<h3 id="ssh">SSH</h3>
-<ul>
-<li><a href="ssh/cd-on-login">Change directory when logging in via SSH</a></li>
-</ul>
+<h1 id="composer-tools">Composer Tools</h1>
+<h4 id="detect-unused-installed-dependencies">Detect unused installed dependencies</h4>
+<p>A Composer tool to show unused Composer dependencies by scanning your code.</p>
+<p>https://github.com/composer-unused/composer-unused</p>
+<h4 id="normalize-composerjson">Normalize <code>composer.json</code></h4>
+<p>Provides a composer plugin for normalizing <code>composer.json</code>, so that the order and layout is always consistent.</p>
+<p>https://github.com/ergebnis/composer-normalize</p>
+<h4 id="check-use-of-soft-dependencies">Check use of “soft” dependencies</h4>
+<p>Tool to detect when your code is relying on “soft” dependencies (i.e. packages that are installed because they are required by packages you install directly).</p>
+<p>https://github.com/maglnet/ComposerRequireChecker</p>
 </body>
 </html>

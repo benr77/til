@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>Today I Learned</title>
+  <title>Limiting Memory Usage</title>
   <style type="text/css">
       code{white-space: pre-wrap;}
       span.smallcaps{font-variant: small-caps;}
@@ -19,29 +19,14 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
 </head>
 <body>
-<h1 id="today-i-learned">Today I Learned</h1>
-<p>A collection of small tips and tricks that I pick up each day I work in tech.</p>
-<h3 id="git">GIT</h3>
-<ul>
-<li><a href="git/delete-branch">Deleting Branches</a></li>
-<li><a href="git/rename-branch">Rename Branch</a></li>
-<li><a href="git/undo-commit">Undoing Commits</a></li>
-</ul>
-<h3 id="gitlab">GITLAB</h3>
-<ul>
-<li><a href="gitlab/runner-config">Self-Hosted Runner Configuration</a></li>
-</ul>
-<h3 id="make">MAKE</h3>
-<ul>
-<li><a href="make/makefile-parameters">Passing parameters to Makefile targets</a></li>
-</ul>
-<h3 id="php">PHP</h3>
-<ul>
-<li><a href="php/pdf-generation">Generating PDFs with PHP</a></li>
-</ul>
-<h3 id="ssh">SSH</h3>
-<ul>
-<li><a href="ssh/cd-on-login">Change directory when logging in via SSH</a></li>
-</ul>
+<h1 id="limiting-memory-usage">Limiting Memory Usage</h1>
+<p>When installing Elasticsearch, the default memory usage settings are quite high if you are only using it for small applications.</p>
+<p>To quickly set the maximum permitted memory usage, edit <code>/etc/elasticsearch/jvm.options</code> and change the following values:</p>
+<pre><code># Xms represents the initial size of total heap space
+# Xmx represents the maximum size of total heap space
+#-Xms1g # Previous default of 1G
+#-Xmx1g # Previous default of 1G
+-Xms350m # New value of 350M
+-Xmx350m # New value of 350M</code></pre>
 </body>
 </html>

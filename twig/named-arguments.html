@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Using Named Arguments In Twig</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="/til/style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+</head>
+<body>
+<h1 id="using-named-arguments-in-twig">Using Named Arguments In Twig</h1>
+<p>You can use named arguments just like in PHP 8. This can help increase the readability of the template code, or allow you to skip arguments with default values defined.</p>
+<p>This only works with filters, functions and tests:</p>
+<pre class="twig"><code>{{ your_function(arg1=value1, arg2=value2) }}</code></pre>
+<p>Is the same as:</p>
+<pre class="twig"><code>{{ your_function(arg2=value2, arg1=value1) }}</code></pre>
+<p>And if an argument has a default value defined, it can be skipped completely:</p>
+<pre class="twig"><code>{{ your_function(arg2=value2) }}</code></pre>
+</body>
+</html>

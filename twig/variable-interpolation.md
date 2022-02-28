@@ -1,4 +1,4 @@
-Variable Interpolation
+Variable Interpolation In Twig
 =====
 
 The Twig documentation shows that you can concatenate strings using the tilde character:

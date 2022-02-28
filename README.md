@@ -46,4 +46,5 @@ A collection of small tips and tricks that I pick up each day I work in tech.
 
 
 - [Using Named Arguments In Twig](twig/named-arguments.md)
+- [Splitting lists into batches](twig/splitting-lists-into-batches.md)
 - [Variable Interpolation In Twig](twig/variable-interpolation.md)

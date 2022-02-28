@@ -46,4 +46,4 @@ A collection of small tips and tricks that I pick up each day I work in tech.
 
 
 - [Using Named Arguments In Twig](twig/named-arguments.md)
-- [Variable Interpolation](twig/variable-interpolation.md)
+- [Variable Interpolation In Twig](twig/variable-interpolation.md)

@@ -13,6 +13,7 @@ A collection of small tips and tricks that I pick up each day I work in tech.
 
 
 - [Deleting Branches](git/delete-branch.md)
+- [Managing Origins](git/manage-origins.md)
 - [Rename Branch](git/rename-branch.md)
 - [Undoing Commits](git/undo-commit.md)
 

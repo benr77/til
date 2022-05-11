@@ -16,6 +16,7 @@ A collection of small tips and tricks that I pick up each day I work in tech.
 - [Managing Origins](git/manage-origins.md)
 - [Rename Branch](git/rename-branch.md)
 - [Undoing Commits](git/undo-commit.md)
+- [This will unstage all files you might have staged with git add:](git/undo-unsaved-changes.md)
 
 
 ### GITLAB

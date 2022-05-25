@@ -1,3 +1,6 @@
+Reverting Unsaved Changes
+=====
+
 This will unstage all files you might have staged with git add:
 
 ```bash

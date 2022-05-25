@@ -47,7 +47,7 @@ A collection of small tips and tricks that I pick up each day I work in tech.
 ### SUPERVISORD
 
 
-- [When making a change to the `supervisord` configuration, you need to instruct it to re-read the configuration before restarting the service.](supervisord/changing-configuration.md)
+- [Applying configuration changes](supervisord/changing-configuration.md)
 
 
 ### TWIG

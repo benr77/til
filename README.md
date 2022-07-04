@@ -3,6 +3,12 @@ Today I Learned
 
 A collection of small tips and tricks that I pick up each day I work in tech.
 
+### BASH
+
+
+- [Create Multiple Directories At Once](bash/mkdir-tricks.md)
+
+
 ### ELASTICSEARCH
 
 

@@ -42,6 +42,7 @@ A collection of small tips and tricks that I pick up each day I work in tech.
 
 - [Composer Tools](php/composer-tools.md)
 - [Generating PDFs with PHP](php/pdf-generation.md)
+- [PHPUnit Testdox Output](php/phpunit-testdox.md)
 
 
 ### SSH

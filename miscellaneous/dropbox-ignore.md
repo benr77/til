@@ -13,4 +13,4 @@ To then remove the ignored status:
 attr -r com.dropbox.ignored <path>
 ```
 
-Other operating systems are also support. Read the [https://help.dropbox.com/files-folders/restore-delete/ignored-files](Dropbox documentation).
+Other operating systems are also support. Read the [Dropbox documentation](https://help.dropbox.com/files-folders/restore-delete/ignored-files).

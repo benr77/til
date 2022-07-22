@@ -37,6 +37,12 @@ A collection of small tips and tricks that I pick up each day I work in tech.
 - [Passing parameters to Makefile targets](make/makefile-parameters.md)
 
 
+### MISCELLANEOUS
+
+
+- [Ignoring Files Or Directories With Dropbox](miscellaneous/dropbox-ignore.md)
+
+
 ### PHP
 
 

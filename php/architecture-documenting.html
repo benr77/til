@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Documenting PHP Architecture</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="/til/style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+</head>
+<body>
+<h1 id="documenting-php-architecture">Documenting PHP Architecture</h1>
+<h3 id="tools">Tools</h3>
+<p>There are several tools that allow you to write rules describing your application architecture.</p>
+<ul>
+<li><a href="phpat">https://github.com/carlosas/phpat</a> - PHP Architecture Tester is a static analysis tool to verify architectural requirements.</li>
+<li><a href="deptrac">https://github.com/qossmic/deptrac</a> - Deptrac is a static code analysis tool for PHP that helps you communicate, visualize and enforce architectural decisions in your projects.</li>
+<li><a href="phparkitect">https://github.com/phparkitect/arkitect</a> - PHPArkitect helps you to keep your PHP codebase coherent and solid, by permitting to add some architectural constraint check to your workflow.</li>
+</ul>
+<h3 id="architectural-decision-records-adr">Architectural Decision Records (ADR)</h3>
+<p>https://adr.github.io/</p>
+<blockquote>
+<p>An Architectural Decision (AD) is a software design choice that addresses a functional or non-functional requirement that is architecturally significant. An Architecturally Significant Requirement (ASR) is a requirement that has a measurable effect on a software system’s architecture and quality. An Architectural Decision Record (ADR) captures a single AD, such as often done when writing personal notes or meeting minutes; the collection of ADRs created and maintained in a project constitute its decision log. All these are within the topic of Architectural Knowledge Management (AKM).</p>
+</blockquote>
+<p>Custom PHPStan rules can be used to enforce ADRs in your project.</p>
+<p>https://www.strangebuzz.com/en/blog/creating-custom-phpstan-rules-for-your-symfony-project</p>
+</body>
+</html>

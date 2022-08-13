@@ -65,6 +65,12 @@ A collection of small tips and tricks that I pick up each day I work in tech.
 - [Applying configuration changes](supervisord/changing-configuration.md)
 
 
+### SYMFONY-BUNDLES
+
+
+- [Auto-Register Custom Doctrine DBAL types](symfony-bundles/auto-registering-custom-doctrine-types.md)
+
+
 ### TWIG
 
 

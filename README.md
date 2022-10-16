@@ -37,6 +37,7 @@ A collection of small tips and tricks that I pick up each day I work in tech.
 
 
 - [Passing parameters to Makefile targets](make/makefile-parameters.md)
+- [Self-Documenting Makefile](make/self-documenting-makefile.md)
 
 
 ### MISCELLANEOUS

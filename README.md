@@ -23,6 +23,7 @@ A collection of small tips and tricks that I pick up each day I work in tech.
 - [Git Diff Output Styling](git/git-diff-styling.md)
 - [Managing Origins](git/manage-origins.md)
 - [Rename Branch](git/rename-branch.md)
+- [Splitting A Monorepo](git/split-monorepo.md)
 - [Undoing Commits](git/undo-commit.md)
 - [Reverting Unsaved Changes](git/undo-unsaved-changes.md)
 

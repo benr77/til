@@ -19,6 +19,7 @@ A collection of small tips and tricks that I pick up each day I work in tech.
 ### GIT
 
 
+- [Counting Lines Changed](git/counting-lines-changed.md)
 - [Deleting Branches](git/delete-branch.md)
 - [Git Diff Output Styling](git/git-diff-styling.md)
 - [Global Ignore Patterns](git/global-ignore-file.md)

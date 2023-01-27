@@ -34,6 +34,7 @@ A collection of small tips and tricks that I pick up each day I work in tech.
 
 
 - [Automatically Create Merge Request](gitlab/auto-create-merge-request.md)
+- [Purge Project Artifacts](gitlab/purge-project-artifacts.md)
 - [Self-Hosted Runner Configuration](gitlab/runner-config.md)
 
 

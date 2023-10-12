@@ -87,6 +87,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h1 id="splitting-lists-into-batches">Splitting lists into batches</h1>
 <p>Twig can split a list into subsets using the <a href="https://twig.symfony.com/doc/3.x/filters/batch.html">batch</a> filter. This is useful, for example, to show a list of items in multiple columns.</p>
 <p>From the Twig documentation:</p>
+<!-- {% raw %} -->
 <pre class="twig"><code>{% set items = [&#39;a&#39;, &#39;b&#39;, &#39;c&#39;, &#39;d&#39;] %}
 
 &lt;table&gt;
@@ -98,6 +99,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
         &lt;/tr&gt;
     {% endfor %}
 &lt;/table&gt;</code></pre>
+<!-- {% endraw %} -->
 <p>Will output:</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;table&gt;</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">&lt;tr&gt;</span></span>

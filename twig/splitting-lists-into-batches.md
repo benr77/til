@@ -5,6 +5,7 @@ Twig can split a list into subsets using the [batch](https://twig.symfony.com/do
 
 From the Twig documentation:
 
+<!-- {% raw %} -->
 ```twig
 {% set items = ['a', 'b', 'c', 'd'] %}
 
@@ -18,6 +19,7 @@ From the Twig documentation:
     {% endfor %}
 </table>
 ```
+<!-- {% endraw %} -->
 
 Will output:
 

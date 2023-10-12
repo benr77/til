@@ -21,9 +21,13 @@
 <body>
 <h1 id="variable-interpolation-in-twig">Variable Interpolation In Twig</h1>
 <p>The Twig documentation shows that you can concatenate strings using the tilde character:</p>
+<!-- {% raw %} -->
 <pre class="twig"><code>{{ &quot;Hello &quot; ~ name ~ &quot; and good morning&quot; }}</code></pre>
+<!-- {% endraw %} -->
 <p>However, there is a lesser known syntax, whereby you can directly interpolate your variables:</p>
+<!-- {% raw %} -->
 <pre class="twig"><code>{{ &quot;Hello #{name} and good morning&quot; }}</code></pre>
+<!-- {% endraw %} -->
 <p>The string must use double-quotes, not single quotes, just like in PHP itself.</p>
 </body>
 </html>

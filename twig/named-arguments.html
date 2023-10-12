@@ -22,10 +22,16 @@
 <h1 id="using-named-arguments-in-twig">Using Named Arguments In Twig</h1>
 <p>You can use named arguments just like in PHP 8. This can help increase the readability of the template code, or allow you to skip arguments with default values defined.</p>
 <p>This only works with filters, functions and tests:</p>
+<!-- {% raw %} -->
 <pre class="twig"><code>{{ your_function(arg1=value1, arg2=value2) }}</code></pre>
+<!-- {% endraw %} -->
 <p>Is the same as:</p>
+<!-- {% raw %} -->
 <pre class="twig"><code>{{ your_function(arg2=value2, arg1=value1) }}</code></pre>
+<!-- {% endraw %} -->
 <p>And if an argument has a default value defined, it can be skipped completely:</p>
+<!-- {% raw %} -->
 <pre class="twig"><code>{{ your_function(arg2=value2) }}</code></pre>
+<!-- {% endraw %} -->
 </body>
 </html>

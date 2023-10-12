@@ -59,6 +59,7 @@ A collection of small tips and tricks that I pick up each day I work in tech.
 
 - [Change Default Shell For A User](miscellaneous/change-default-shell.md)
 - [Ignoring Files Or Directories With Dropbox](miscellaneous/dropbox-ignore.md)
+- [Force A Hard Reboot](miscellaneous/forced-hard-reboot.md)
 
 
 ### PHP

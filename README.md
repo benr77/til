@@ -72,6 +72,12 @@ A collection of small tips and tricks that I pick up each day I work in tech.
 - [Configure UFW Firewall for XDebug](php/xdebug-firewall.md)
 
 
+### POSTGRES
+
+
+- [Report table sizes across all schemas](postgres/all-schema-table-sizes.md)
+
+
 ### SSH
 
 

@@ -22,3 +22,9 @@ events=PROCESS_STATE_EXITED
 command=fatalmailbatch --toEmail="your@email.com" --fromEmail="root@your-server.com"
 events=PROCESS_STATE,TICK_60
 ```
+
+Then reload Supervisord to pick up the new configuration.
+
+```bash
+sudo service supervisor restart
+```

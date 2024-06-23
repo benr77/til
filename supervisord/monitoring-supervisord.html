@@ -99,5 +99,7 @@ events=PROCESS_STATE_EXITED
 [eventlistener:fatalmailbatch]
 command=fatalmailbatch --toEmail=&quot;your@email.com&quot; --fromEmail=&quot;root@your-server.com&quot;
 events=PROCESS_STATE,TICK_60</code></pre>
+<p>Then reload Supervisord to pick up the new configuration.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> service supervisor restart</span></code></pre></div>
 </body>
 </html>

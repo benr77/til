@@ -88,6 +88,7 @@ A collection of small tips and tricks that I pick up each day I work in tech.
 
 
 - [Applying configuration changes](supervisord/changing-configuration.md)
+- [Monitoring Supervisord](supervisord/monitoring-supervisord.md)
 
 
 ### SYMFONY-BUNDLES
